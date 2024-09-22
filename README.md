@@ -1,29 +1,79 @@
-# Create T3 App
+# Personal Webpage
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+This is a personal webpage built with React and TypeScript. It showcases various sections including Home, Research, Build, and Fun.
 
-## What's next? How do I make an app with this?
+## Table of Contents
+- [Personal Webpage](#personal-webpage)
+  - [Table of Contents](#table-of-contents)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Static Files](#static-files)
+    - [Example:](#example)
+  - [Content](#content)
+    - [Home Page](#home-page)
+    - [Build Page](#build-page)
+  - [Contributing](#contributing)
+  - [License](#license)
 
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
+## Installation
 
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/your-username/personal-webpage.git
+    cd personal-webpage
+    ```
 
-- [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
-- [Drizzle](https://orm.drizzle.team)
-- [Tailwind CSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
+2. Install dependencies:
+    ```bash
+    npm install
+    ```
 
-## Learn More
+## Usage
 
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
+1. Start the development server:
+    ```bash
+    npm run dev
+    ```
 
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
+2. Open your browser and navigate to `http://localhost:3000`.
 
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
+## Static Files
 
-## How do I deploy this?
+Static files such as images are stored in the `public/static` directory. Ensure that the images are correctly named and placed in this directory.
 
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+### Example:
+- `public/static/usc.png`
+- `public/static/msr.png`
+- `public/static/alexa.png`
+- `public/static/ai2.png`
+- `public/static/neu.png`
+- `public/static/sutd.png`
+- `public/static/iitbhu.png`
+- `public/static/pinegapLogo.svg`
+- `public/static/saras.png`
+- `public/static/ballpark.png`
+- `public/static/survey.png`
+- `public/static/designAR.jpg`
+- `public/static/election.png`
+- `public/static/covid.png`
+- `public/static/samsung.png`
+- `public/static/campus.png`
+- `public/static/contraption.jpeg`
+
+## Content
+
+### Home Page
+
+The Home page includes a brief introduction, links to social media profiles, and a list of mentors with their affiliations.
+
+### Build Page
+
+The Build page showcases various projects and products developed alongside the PhD. Each project includes a description and an image.
+
+## Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request for any changes.
+
+## License
+
+This project is licensed under the MIT License.
