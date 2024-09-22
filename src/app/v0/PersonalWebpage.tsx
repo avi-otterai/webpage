@@ -18,7 +18,7 @@ const PersonalWebpage: React.FC = () => {
     };
   }, []);
 
-  const sections: { [key: string]: React.ReactNode } = {
+  const sections: Record<string, React.ReactNode> = {
     home: <Home />,
     research: <Research />,
     build: <Build />,

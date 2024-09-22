@@ -27,7 +27,7 @@ const Build: React.FC = () => (
         </tr>
         <tr className="mb-4">
           <td className="pr-4 pb-4"><Image src="/static/survey.png" alt="Living Surveys" width={400} height={200} /></td>
-          <td className="pb-4">Eshaan helped me create <a href="https://github.com/EshaanAgg/Research-Literature-Manager" className="text-emerald-600 hover:underline">Living Surveys</a>, an open source lit review tool that you can use to avoid FOMO in academia. We use Github Actions, Semantic Scholar, and Netlify to help you host your own living survey paper, with daily updated recommendations for new and relevant publications! Here's a <a href="https://youtu.be/FUIq9-lJ9ag?si=YjWr4ZFZjReJsEI2" className="text-emerald-600 hover:underline">talk at ISI</a> presenting the tool.</td>
+          <td className="pb-4">Eshaan helped me create <a href="https://github.com/EshaanAgg/Research-Literature-Manager" className="text-emerald-600 hover:underline">Living Surveys</a>, an open source lit review tool that you can use to avoid FOMO in academia. We use Github Actions, Semantic Scholar, and Netlify to help you host your own living survey paper, with daily updated recommendations for new and relevant publications! Here&apos;s a <a href="https://youtu.be/FUIq9-lJ9ag?si=YjWr4ZFZjReJsEI2" className="text-emerald-600 hover:underline">talk at ISI</a> presenting the tool.</td>
         </tr>
         <tr className="mb-4">
           <td className="pr-4 pb-4"><Image src="/static/designAR.jpg" alt="DesignAR" width={400} height={200} /></td>
@@ -47,7 +47,7 @@ const Build: React.FC = () => (
         </tr>
         <tr className="mb-4">
           <td className="pr-4 pb-4"><Image src="/static/samsung.png" alt="Samsung" width={400} height={200} /></td>
-          <td className="pb-4">Working with Samsung Research, I once voluntarily analyzed logged employee entry/exit data to analyze trends and share lessons with the Director of Samsung R&D Bengaluru. Turns out, attendance peaks around (free) lunchtime!</td>
+          <td className="pb-4">Working with Samsung Research, I once voluntarily analyzed logged employee entry/exit data to analyze trends and share lessons with the Director of Samsung R&amp;D Bengaluru. Turns out, attendance peaks around (free) lunchtime!</td>
         </tr>
         <tr className="mb-4">
           <td className="pr-4 pb-4"><Image src="/static/iitbhu.jpg" alt="Campus" width={400} height={200} /></td>
