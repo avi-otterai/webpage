@@ -8,34 +8,46 @@ interface HeaderProps {
 }
 
 const Header: React.FC<HeaderProps> = ({ activeSection, setActiveSection }) => (
-  <header className="sticky top-0 z-20 bg-emerald-50 bg-opacity-90 backdrop-blur-sm border-b border-emerald-200">
+  <header className="bg-white shadow sticky top-0 z-50">
     <nav className="container mx-auto px-4 py-4">
       <div className="flex justify-between items-center">
-        <h1 className="text-2xl font-bold text-emerald-800">Avijit Thawani</h1>
-        <div className="flex space-x-2">
+        <div className="text-2xl font-bold text-emerald-800">Avijit Thawani</div>
+        <div className="flex space-x-4">
           <NavItem
-            icon={<Home size={18} />}
+            icon={<Home />}
             label="Home"
             isActive={activeSection === 'home'}
-            onClick={() => setActiveSection('home')}
+            onClick={() => {
+              console.log('Home clicked');
+              setActiveSection('home');
+            }}
           />
           <NavItem
-            icon={<BookOpen size={18} />}
+            icon={<BookOpen />}
             label="Research"
             isActive={activeSection === 'research'}
-            onClick={() => setActiveSection('research')}
+            onClick={() => {
+              console.log('Research clicked');
+              setActiveSection('research');
+            }}
           />
           <NavItem
-            icon={<Wrench size={18} />}
+            icon={<Wrench />}
             label="Build"
             isActive={activeSection === 'build'}
-            onClick={() => setActiveSection('build')}
+            onClick={() => {
+              console.log('Build clicked');
+              setActiveSection('build');
+            }}
           />
           <NavItem
-            icon={<Smile size={18} />}
+            icon={<Smile />}
             label="Fun"
             isActive={activeSection === 'fun'}
-            onClick={() => setActiveSection('fun')}
+            onClick={() => {
+              console.log('Fun clicked');
+              setActiveSection('fun');
+            }}
           />
         </div>
       </div>

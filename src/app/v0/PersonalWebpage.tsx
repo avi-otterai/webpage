@@ -18,20 +18,32 @@ const PersonalWebpage: React.FC = () => {
     };
   }, []);
 
-  const sections: Record<string, React.ReactNode> = {
-    home: <Home />,
-    research: <Research />,
-    build: <Build />,
-    fun: <Fun />,
+  const renderSection = () => {
+    console.log('Rendering section:', activeSection);
+    switch (activeSection) {
+      case 'home':
+        return <Home />;
+      case 'research':
+        return <Research />;
+      case 'build':
+        return <Build />;
+      case 'fun':
+        return <Fun />;
+      default:
+        return <Home />;
+    }
   };
 
   return (
     <div className="min-h-screen bg-emerald-50 text-emerald-900 relative">
       <BackgroundGrid />
       <div className="relative z-10">
-        <Header activeSection={activeSection} setActiveSection={setActiveSection} />
+        <Header activeSection={activeSection} setActiveSection={(section) => {
+          console.log('Setting active section:', section);
+          setActiveSection(section);
+        }} />
         <main className="container mx-auto px-4 py-8">
-          {sections[activeSection]}
+          {renderSection()}
         </main>
       </div>
     </div>
