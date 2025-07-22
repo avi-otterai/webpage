@@ -9,10 +9,8 @@ const Research: React.FC = () => (
     <ul className="list-disc list-inside space-y-2 text-emerald-800">
       <li>
         <strong>Thawani A.</strong>, Ghanekar S., Kumar D., Pujara J. <em>Does Subword Vocabulary hold back Machine Translation?</em>. (submitted 2024).
-        <a href="https://aclanthology.org/2023.findings-emnlp.662/" className="text-emerald-600 hover:underline ml-2">Anthology</a>, 
-        <a href="https://arxiv.org/abs/2310.11628" className="text-emerald-600 hover:underline ml-2">Arxiv</a>, 
-        <a href="https://drive.google.com/file/d/1kBMsduKSNS28x1AjWJf1dz56ti5RYzMM/view?usp=sharing" className="text-emerald-600 hover:underline ml-2">Poster</a>, 
-        <a href="https://github.com/avi-jit/eTok" className="text-emerald-600 hover:underline ml-2">Code</a>
+        <a href="https://openreview.net/pdf?id=D0fEYV_Ru4" className="text-emerald-600 hover:underline ml-2">OpenReview</a>, 
+        <a href="https://github.com/avi-otterai/factorizer" className="text-emerald-600 hover:underline ml-2">Code</a>        
       </li>
       <li>
         <strong>Thawani A.</strong>, Ghanekar S., Zhu X., Pujara J. <em>Learn Your Tokens: Word-Pooled Tokenization for Language Modeling</em>. <strong>EMNLP 2023</strong> Findings. 
